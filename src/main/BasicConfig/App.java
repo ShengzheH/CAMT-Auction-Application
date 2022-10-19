@@ -2,6 +2,8 @@ package BasicConfig;
 
 import jdk.nashorn.internal.parser.JSONParser;
 import BasicConfig.*;
+import jdk.nashorn.tools.Shell;
+
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
@@ -64,24 +66,33 @@ public class App {
         auctions.add(a1);
         seller1.setPostitem(auctions);
         System.out.println("Who is the Seller of the Auction1?"+"\n");
-        for (int i=0;i<sellers.size();i++){
-            if (a1.getSeller_id() == sellers.get(i).getUser().getId()){
-                System.out.println("Seller Name: "+sellers.get(i).getUser().getName());
-            }
-        }
-
+        System.out.println("Seller Name: "+ShowSeller(sellers,a1.getSeller_id()).getUser().getName());
         System.out.println("Who Bought the Auction1? And How much he(she) offer?"+"\n");
-        for (int i=0;i<buyers.size();i++){
-            if (a1.getCurrent_buyer_id() == buyers.get(i).getUser().getId()){
-                System.out.println("Buyer Name: "+buyers.get(i).getUser().getName());
-                System.out.println("Price: "+a1.getCurrent_price());
-            }
-        }
+        System.out.println("Buyer Name: "+ShowWinner(buyers,a1.getCurrent_buyer_id()).getUser().getName());
+        System.out.println("Price: "+a1.getCurrent_price());
     }
     public static Date setTime(){
         Calendar rightNow = Calendar.getInstance();
         rightNow.setTime(new Date(System.currentTimeMillis()));
         rightNow.add(Calendar.SECOND,5);
         return rightNow.getTime();
+    }
+    public static Seller ShowSeller(List<Seller> sellers,int id){
+        for (int i=0;i<sellers.size();i++){
+            if (id == sellers.get(i).getUser().getId()){
+                return sellers.get(i);
+            }
+        }
+        System.out.println("Sorry,Not found");
+        return null;
+    }
+    public static Buyer ShowWinner(List<Buyer> buyers,int id){
+        for (int i=0;i<buyers.size();i++){
+            if (id == buyers.get(i).getUser().getId()){
+                return buyers.get(i);
+            }
+        }
+        System.out.println("Sorry,Not found");
+        return null;
     }
 }

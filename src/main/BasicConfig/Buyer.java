@@ -26,6 +26,7 @@ public class Buyer extends User {
         return auctionStrategy;
     }
 
+    public Buyer(){};
     public Buyer(User user) {
         this.user = user;
     }
