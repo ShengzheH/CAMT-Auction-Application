@@ -18,6 +18,8 @@ public class Bid {
         this.offer_date = offer_date;
     }
 
+    public Bid(){};
+
     public int getId() {
         return id;
     }
