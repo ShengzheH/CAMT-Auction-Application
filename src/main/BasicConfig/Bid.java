@@ -1,11 +1,13 @@
-import java.util.Date;
+package BasicConfig;
 
+import java.util.Date;
 /* 拍卖记录
 */
 public class Bid {
     int id;
     int Auction_id;
     int buyer_id;
+
     Double offer;   //出价价格
     Date offer_date;  //出价日期
 

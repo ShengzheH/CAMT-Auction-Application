@@ -1,3 +1,6 @@
+package BasicConfig;
+
+import BasicConfig.*;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -23,6 +26,17 @@ public class Auction {
         this.Ending_date = ending_date;
         this.seller_id = seller_id;
     }
+    public Auction(){
+
+    }
+    public Auction(String name,String photo,String description,Double start_Price,Date ending_date) {
+        this.name = name;
+        this.photo = photo;
+        this.description = description;
+        this.Start_Price = start_Price;
+        this.Ending_date = ending_date;
+        this.seller_id = seller_id;
+    }
     public void FinalOffer(int buyer_id,double current_price){
         if (this.Current_price == null){
             this.Current_price = current_price;
@@ -38,7 +52,7 @@ public class Auction {
         this.bids.add(bid);
         if (this.Ending_date.compareTo(bid.getOffer_date())<0){
             return;
-        }else if ()
+        }
         FinalOffer(bid.buyer_id,bid.getOffer());
     }
     public int getId() {

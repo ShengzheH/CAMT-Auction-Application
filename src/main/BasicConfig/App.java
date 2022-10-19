@@ -1,5 +1,7 @@
-import jdk.nashorn.internal.parser.JSONParser;
+package BasicConfig;
 
+import jdk.nashorn.internal.parser.JSONParser;
+import BasicConfig.*;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;

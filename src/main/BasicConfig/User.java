@@ -1,5 +1,10 @@
+package BasicConfig;
+
+import BasicConfig.*;
+import StrategyPattern.AuctionStrategy;
+
 import java.util.List;
-//User info
+//Mian.User info
 public class User {
     int id;
     String name;

@@ -1,6 +1,9 @@
+package BasicConfig;
+
+import BasicConfig.*;
 import java.util.List;
 
-public class Seller extends User{
+public class Seller extends User {
     User user;
     List<Auction> postitem;  //发布的拍卖品
 
