@@ -2,7 +2,7 @@ package BasicConfig;
 
 //Mian.User info
 public class User {
-    int id;
+    public int id;
     String name;
     String password;
     String address;

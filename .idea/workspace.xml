@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed1368af-652f-460b-a028-db0c4811ef07" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/BasicConfig/Bid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/BasicConfig/Bid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/BasicConfig/Buyer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/BasicConfig/Buyer.java" afterDir="false" />
     <list default="true" id="97672083-37b8-4639-a843-cf2f06b4a380" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/SingleTonPattern/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022_10_19_17_43__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022_10_19_17_43__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/BasicConfig/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/BasicConfig/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/SingleTonPattern/Buyer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/SingleTonPattern/Buyer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
