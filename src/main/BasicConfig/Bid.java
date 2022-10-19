@@ -1,40 +1,44 @@
+package BasicConfig;
+
+import java.util.Date;
 /* 拍卖记录
 */
 public class Bid {
-    Long id;
-    Long Auction_id;
-    Long buyer_id;
-    Double offer;   //出价价格
-    String offer_date;  //出价日期
+    int id;
+    int Auction_id;
+    int buyer_id;
 
-    public Bid(Long auction_id, Long buyer_id, Double offer, String offer_date) {
+    Double offer;   //出价价格
+    Date offer_date;  //出价日期
+
+    public Bid(int auction_id, int buyer_id, Double offer, Date offer_date) {
         Auction_id = auction_id;
         this.buyer_id = buyer_id;
         this.offer = offer;
         this.offer_date = offer_date;
     }
 
-    public Long getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(int id) {
         this.id = id;
     }
 
-    public Long getAuction_id() {
+    public int getAuction_id() {
         return Auction_id;
     }
 
-    public void setAuction_id(Long auction_id) {
+    public void setAuction_id(int auction_id) {
         Auction_id = auction_id;
     }
 
-    public Long getBuyer_id() {
+    public int getBuyer_id() {
         return buyer_id;
     }
 
-    public void setBuyer_id(Long buyer_id) {
+    public void setBuyer_id(int buyer_id) {
         this.buyer_id = buyer_id;
     }
 
@@ -46,11 +50,11 @@ public class Bid {
         this.offer = offer;
     }
 
-    public String getOffer_date() {
+    public Date getOffer_date() {
         return offer_date;
     }
 
-    public void setOffer_date(String offer_date) {
+    public void setOffer_date(Date offer_date) {
         this.offer_date = offer_date;
     }
 }
