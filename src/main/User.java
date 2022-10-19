@@ -6,7 +6,13 @@ public class User {
     String password;
     String address;
     String Notel;
-    List<Item> PostItem;
+
+    public User(String name, String password, String address, String notel) {
+        this.name = name;
+        this.password = password;
+        this.address = address;
+        Notel = notel;
+    }
 
     public User(Long id, String name, String password, String address, String notel) {
         this.id = id;
@@ -56,11 +62,5 @@ public class User {
         Notel = notel;
     }
 
-    public List<Item> getPostItem() {
-        return PostItem;
-    }
 
-    public void setPostItem(List<Item> postItem) {
-        PostItem = postItem;
-    }
 }
