@@ -11,8 +11,20 @@ import java.util.List;
 
 public class Buyer extends User {
     User user;
+    List<Bid> OfferBid;
      List<Auction> BoughtAuction;  //买到的拍卖品
 
+    public List<Bid> getOfferBid() {
+        return OfferBid;
+    }
+
+    public void setOfferBid(List<Bid> offerBid) {
+        OfferBid = offerBid;
+    }
+
+    public AuctionStrategy getAuctionStrategy() {
+        return auctionStrategy;
+    }
 
     public Buyer(User user) {
         this.user = user;

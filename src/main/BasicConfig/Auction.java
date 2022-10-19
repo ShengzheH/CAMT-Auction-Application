@@ -55,6 +55,11 @@ public class Auction {
         }
         FinalOffer(bid.buyer_id,bid.getOffer());
     }
+
+    public void setCurrent_buyer_id(int current_buyer_id) {
+        Current_buyer_id = current_buyer_id;
+    }
+
     public int getId() {
         return id;
     }
