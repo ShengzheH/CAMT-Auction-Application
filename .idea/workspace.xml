@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed1368af-652f-460b-a028-db0c4811ef07" name="Changes" comment="">
+    <list default="true" id="97672083-37b8-4639-a843-cf2f06b4a380" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Auction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Auction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Bid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Bid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Buyer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Buyer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Seller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Seller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/BasicConfig/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/BasicConfig/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/BasicConfig/Auction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/BasicConfig/Auction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/BasicConfig/Buyer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/BasicConfig/Buyer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,21 +40,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.37845567",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.37845567&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
-    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="App" />
+    <configuration name="App" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BasicConfig.App" />
       <module name="CAMT_Auction" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,7 +94,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Apply StrategyPattern" />
