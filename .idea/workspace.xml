@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97672083-37b8-4639-a843-cf2f06b4a380" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/SingleTonPattern/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022_10_19_17_43__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022_10_19_17_43__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/BasicConfig/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/BasicConfig/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/SingleTonPattern/Buyer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/SingleTonPattern/Buyer.java" afterDir="false" />
-    </list>
+    <list default="true" id="3e526652-941f-4ad7-9ec4-2b17c9f6b172" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666191113697</updated>
-      <workItem from="1666191118138" duration="3732000" />
+      <workItem from="1666191118138" duration="4104000" />
     </task>
     <servers />
   </component>
@@ -77,6 +71,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
