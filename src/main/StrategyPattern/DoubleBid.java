@@ -1,7 +1,6 @@
 package StrategyPattern;
 
 import BasicConfig.Auction;
-import StrategyPattern.*;
 
 /**
  * @author jmm

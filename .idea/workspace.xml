@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97672083-37b8-4639-a843-cf2f06b4a380" name="Changes" comment="" />
+    <list default="true" id="97672083-37b8-4639-a843-cf2f06b4a380" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/BuilderPattern/AuctionBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/BuilderPattern/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/BuilderPattern/M50.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/BasicConfig/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/BasicConfig/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/BasicConfig/Buyer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/BasicConfig/Buyer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/BasicConfig/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/BasicConfig/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/StrategyPattern/DoubleBid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/StrategyPattern/DoubleBid.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,18 +44,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.37845567&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\泰国课程\953322\CAMT-Auction-Application\src\main" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\泰国课程\953322\CAMT-Auction-Application\src\main" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BasicConfig.App" />
@@ -55,16 +66,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ed1368af-652f-460b-a028-db0c4811ef07" name="Changes" comment="" />
       <created>1666151713003</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666151713003</updated>
       <workItem from="1666151714902" duration="12207000" />
+      <workItem from="1666182645038" duration="6802000" />
     </task>
     <task id="LOCAL-00001" summary="Apply StrategyPattern">
       <created>1666165103070</created>
@@ -89,6 +111,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Apply StrategyPattern" />
