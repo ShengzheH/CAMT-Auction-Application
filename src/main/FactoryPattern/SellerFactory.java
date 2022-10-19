@@ -1,4 +1,6 @@
 package FactoryPattern;
+import BasicConfig.Auction;
+
 import java.util.List;
 
 public class SellerFactory extends UserFactory {

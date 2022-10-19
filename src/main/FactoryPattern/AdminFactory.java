@@ -1,4 +1,7 @@
 package FactoryPattern;
+import BasicConfig.Auction;
+import BasicConfig.Bid;
+
 import java.util.List;
 
 public class AdminFactory extends UserFactory{
