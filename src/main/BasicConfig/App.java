@@ -1,5 +1,9 @@
 package BasicConfig;
 
+import BuilderPattern.AuctionBuilder;
+import BuilderPattern.D90;
+import BuilderPattern.Director;
+import BuilderPattern.M50;
 import jdk.nashorn.internal.parser.JSONParser;
 import BasicConfig.*;
 import jdk.nashorn.tools.Shell;
@@ -57,6 +61,13 @@ public class App {
         bids.add(bid3);
         buyer3.setOfferBid(bids);
         a1.AddBid(bid3);
+        
+        //Builder Pattern
+        M50 m50=new M50();
+//        D90 d90=new D90();
+//        Director director=new Director(d90);
+        Director director=new Director(m50);
+        director.construct();
 
         do {
         } while (a1.Ending_date.compareTo(new Date(System.currentTimeMillis()))>0);
