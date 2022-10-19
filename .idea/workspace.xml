@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97672083-37b8-4639-a843-cf2f06b4a380" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/SingleTonPattern/Buyer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/SingleTonPattern/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022_10_19_17_43__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022_10_19_17_43__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/BasicConfig/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/BasicConfig/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/SingleTonPattern/Buyer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/SingleTonPattern/Buyer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1666151713003</updated>
       <workItem from="1666151714902" duration="12207000" />
-      <workItem from="1666188742521" duration="1236000" />
+      <workItem from="1666188742521" duration="3696000" />
     </task>
     <task id="LOCAL-00001" summary="Apply StrategyPattern">
       <created>1666165103070</created>

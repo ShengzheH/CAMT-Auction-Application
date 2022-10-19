@@ -6,7 +6,7 @@ import StrategyPattern.AuctionStrategy;
 import java.util.List;
 //Mian.User info
 public class User {
-    int id;
+    public int id;
     String name;
     String password;
     String address;
