@@ -1,3 +1,5 @@
+package Mian;
+
 import java.util.List;
 // 拍卖品
 public class Auction {
@@ -12,8 +14,10 @@ public class Auction {
     Long seller_id;  //出售者id
     Long buyer_id;    //购买者id
     List<Bid> bids;   //出价记录
+    public Auction(){
 
-    public Auction(String name, String photo, String description, Double start_Price, String ending_date) {
+    }
+    public Auction(String name,String photo,String description,Double start_Price,String ending_date) {
         this.name = name;
         this.photo = photo;
         this.description = description;

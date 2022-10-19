@@ -1,5 +1,9 @@
+package Mian;
+
+import StrategyPattern.AuctionStrategy;
+
 import java.util.List;
-//User info
+//Mian.User info
 public class User {
     Long id;
     String name;

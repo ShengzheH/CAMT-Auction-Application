@@ -1,8 +1,21 @@
+package Mian;
+
+import Mian.Auction;
+import StrategyPattern.AuctionStrategy;
+
 import java.util.List;
 
-public class Buyer extends User{
+public class Buyer extends User {
     User user;
      List<Auction> BoughtAuction;  //买到的拍卖品
+
+    private AuctionStrategy auctionStrategy;
+    public void setAuctionStrategy(AuctionStrategy auctionStrategy){
+        this.auctionStrategy=auctionStrategy;
+    }
+    public double bid(){
+        return auctionStrategy.bid();
+    }
 
     public Buyer(String name, String password, String address, String notel, User user, List<Auction> boughtAuction) {
         super(name, password, address, notel);

@@ -1,6 +1,9 @@
+package Mian;
+
 /* 拍卖记录
 */
 public class Bid {
+
     Long id;
     Long Auction_id;
     Long buyer_id;
