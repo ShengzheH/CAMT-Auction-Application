@@ -1,31 +1,51 @@
+import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 // 拍卖品
 public class Auction {
-    Long id;
+    int id;
     String name;
     String photo;
     String description;
     Double Start_Price;
-    String Ending_date;  //结束时间
-    User Current_user;   // 当前出价最高的用户
+    Date Ending_date;  //结束时间
+    int Current_buyer_id;   // 当前出价最高的用户
     Double Current_price;   //当前出价最高的价格
-    Long seller_id;  //出售者id
-    Long buyer_id;    //购买者id
-    List<Bid> bids;   //出价记录
+    int seller_id;  //出售者id
+    int buyer_id;    //购买者id
+    List<Bid> bids = new ArrayList<>();   //出价记录
 
-    public Auction(String name, String photo, String description, Double start_Price, String ending_date) {
+    public Auction(String name, String photo, String description, Double start_Price, Date ending_date,int seller_id) {
         this.name = name;
         this.photo = photo;
         this.description = description;
-        Start_Price = start_Price;
-        Ending_date = ending_date;
+        this.Start_Price = start_Price;
+        this.Ending_date = ending_date;
+        this.seller_id = seller_id;
     }
+    public void FinalOffer(int buyer_id,double current_price){
+        if (this.Current_price == null){
+            this.Current_price = current_price;
+            this.Current_buyer_id = buyer_id;
+        }
+        else if(this.Current_price<current_price){
+            this.Current_price = current_price;
+            this.Current_buyer_id = buyer_id;
+        }
+    }
+    public void AddBid(Bid bid){
 
-    public Long getId() {
+        this.bids.add(bid);
+        if (this.Ending_date.compareTo(bid.getOffer_date())<0){
+            return;
+        }else if ()
+        FinalOffer(bid.buyer_id,bid.getOffer());
+    }
+    public int getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -61,27 +81,27 @@ public class Auction {
         Start_Price = start_Price;
     }
 
-    public String getEnding_date() {
+    public Date getEnding_date() {
         return Ending_date;
     }
 
-    public void setEnding_date(String ending_date) {
+    public void setEnding_date(Date ending_date) {
         Ending_date = ending_date;
     }
 
-    public Long getSeller_id() {
+    public int getSeller_id() {
         return seller_id;
     }
 
-    public void setSeller_id(Long seller_id) {
+    public void setSeller_id(int seller_id) {
         this.seller_id = seller_id;
     }
 
-    public Long getBuyer_id() {
+    public int getBuyer_id() {
         return buyer_id;
     }
 
-    public void setBuyer_id(Long buyer_id) {
+    public void setBuyer_id(int buyer_id) {
         this.buyer_id = buyer_id;
     }
 
@@ -96,12 +116,12 @@ public class Auction {
 
 
 
-    public User getCurrent_user() {
-        return Current_user;
+    public int getCurrent_buyer_id() {
+        return Current_buyer_id;
     }
 
-    public void setCurrent_user(User current_user) {
-        Current_user = current_user;
+    public void setCurrent_user(int current_buyer_id) {
+        Current_buyer_id = current_buyer_id;
     }
 
     public Double getCurrent_price() {

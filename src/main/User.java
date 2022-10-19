@@ -1,11 +1,12 @@
 import java.util.List;
 //User info
 public class User {
-    Long id;
+    int id;
     String name;
     String password;
     String address;
     String Notel;
+    public User(){}
 
     public User(String name, String password, String address, String notel) {
         this.name = name;
@@ -14,7 +15,7 @@ public class User {
         Notel = notel;
     }
 
-    public User(Long id, String name, String password, String address, String notel) {
+    public User(int id, String name, String password, String address, String notel) {
         this.id = id;
         this.name = name;
         this.password = password;
@@ -22,11 +23,11 @@ public class User {
         Notel = notel;
     }
 
-    public Long getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(int id) {
         this.id = id;
     }
 

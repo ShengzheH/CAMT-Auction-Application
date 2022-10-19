@@ -4,6 +4,14 @@ public class Seller extends User{
     User user;
     List<Auction> postitem;  //发布的拍卖品
 
+    public Seller(User user) {
+        this.user = user;
+    }
+
+    public Seller(String name, String password, String address, String notel) {
+        super(name, password, address, notel);
+    }
+
     public User getUser() {
         return user;
     }
@@ -20,11 +28,5 @@ public class Seller extends User{
         this.postitem = postitem;
     }
 
-    public Seller(String name, String password, String address, String notel) {
-        super(name, password, address, notel);
-    }
 
-    public Seller(Long id, String name, String password, String address, String notel) {
-        super(id, name, password, address, notel);
-    }
 }
