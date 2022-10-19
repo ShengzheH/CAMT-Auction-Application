@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed1368af-652f-460b-a028-db0c4811ef07" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/StrategyPattern/AuctionStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/StrategyPattern/CustomBid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/StrategyPattern/DoubleBid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/StrategyPattern/MaxBid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/StrategyPattern/MinBid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CAMT_Auction.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CAMT_Auction.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Mian/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Auction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Mian/Auction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Bid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Mian/Bid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Buyer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Mian/Buyer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Seller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Mian/Seller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Mian/User.java" afterDir="false" />
-    </list>
+    <list default="true" id="ed1368af-652f-460b-a028-db0c4811ef07" name="Changes" comment="Apply StrategyPattern" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,8 +55,16 @@
       <option name="presentableId" value="Default" />
       <updated>1666151713003</updated>
       <workItem from="1666151714902" duration="5258000" />
-      <workItem from="1666160241921" duration="4790000" />
+      <workItem from="1666160241921" duration="5120000" />
     </task>
+    <task id="LOCAL-00001" summary="Apply StrategyPattern">
+      <created>1666165103070</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666165103070</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,5 +81,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Apply StrategyPattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Apply StrategyPattern" />
   </component>
 </project>
