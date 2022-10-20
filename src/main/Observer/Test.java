@@ -18,12 +18,12 @@ public class Test {
         sub.attach(buyer1);
         sub.attach(buyer2);
 
-        //Delete buyer2
-        //sub.detach(buyer2);
-       //System.out.println("Buyer2 withdrew from the auction.");
-
         //进行更新通知
         //Update notification
         sub.notify1();
+
+        //Delete buyer2
+        //sub.detach(buyer2);
+        //System.out.println("Buyer2 withdrew from the auction.");
         }
     }
